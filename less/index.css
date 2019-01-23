@@ -94,7 +94,15 @@
   background-color: #31c27c;
   color: #fff;
 }
-.nav .top_nav .sousuo .gequ span {
+.nav .top_nav .sousuo .gequ li a span {
+  float: right;
+}
+.nav .top_nav .sousuo .gequ > p {
+  padding: 0 10px;
+  box-sizing: border-box;
+  line-height: 36px;
+}
+.nav .top_nav .sousuo .gequ > p > a {
   float: right;
 }
 .nav .top_nav .login {
